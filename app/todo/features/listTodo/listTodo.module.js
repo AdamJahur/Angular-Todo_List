@@ -1,4 +1,4 @@
 angular
 	.module('todo.listTodo', [
-		'ngTodo.component.todoItem'
+		'todo.component.todoItem'
 	]);
