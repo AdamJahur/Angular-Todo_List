@@ -1,11 +1,12 @@
 angular
-    .module('ngTodo', [
+    .module('todo', [
         'ui.router',
-        'ngTodo.listTodo',
-        'ngTodo.createTodo',
-        'ngTodo.completeTodo',
-        'ngTodo.component.todoItem',
-        'ngTodo.service.todoApi'
+        'todo.listTodo',
+        'todo.createTodo',
+        'todo.completeTodo',
+        'todo.component.navbar',
+        'todo.component.todoItem',
+        'todo.service.todoApi'
     ])
     .config(appConfig);
 

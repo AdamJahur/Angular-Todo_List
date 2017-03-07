@@ -1,5 +1,5 @@
 angular
-    .module('ngTodo.listTodo')
+    .module('todo.listTodo')
     .config(listTodoConfig);
 
 function listTodoConfig($stateProvider) {
