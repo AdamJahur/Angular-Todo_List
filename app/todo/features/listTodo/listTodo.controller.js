@@ -2,7 +2,7 @@ angular
 	.module('todo.listTodo')
 	.controller('ListTodoCtrl', ListTodoCtrl);
 
-function ListTodoCtrl() {
+function ListTodoCtrl(todoApi) {
 	var vm = this;
 	vm.currentDate = getTodaysDate();
 
