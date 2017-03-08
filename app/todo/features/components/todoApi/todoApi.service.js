@@ -4,7 +4,7 @@ angular
 
 function TodoApiService($http) {
 	return {
-		getTodo: function (todos) {
+		getTodos: function (todos) {
 			$http
 				.get('/api')
 				.then(function (response) {
