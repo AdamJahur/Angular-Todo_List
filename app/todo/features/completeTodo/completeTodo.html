@@ -6,7 +6,6 @@
             </div>
             <div class="panel-body">
                 <ul ng-repeat="todo in CompleteVM.todos">
-                    <!--<todo-item todo-data="todo"></todo-item>-->
                     <li ng-if="todo.completed == true" class="list-group-item">
                         <span class="col-lg-10">{{todo.todo}}</span>
                         <input ng-bind="todo" class="col-lg-2 right" type="checkbox" name="completed"

@@ -1,6 +1,6 @@
 angular
 	.module('todo.listTodo')
-	.config('ListTodoCtrl', ListTodoCtrl);
+	.controller('ListTodoCtrl', ListTodoCtrl);
 
 function ListTodoCtrl() {
 	var vm = this;
